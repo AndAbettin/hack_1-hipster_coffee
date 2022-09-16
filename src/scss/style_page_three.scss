@@ -14,7 +14,7 @@ body {
 .container {
     display: flex;
     flex-direction: column;
-    margin: 10%;
+    margin: 3rem 10%;
 
     .cards {
         flex-wrap: wrap;
@@ -24,6 +24,10 @@ body {
 
         .card {
             width: 45%;
+
+            @media screen and (max-width: 768px) {
+                width: 100%;
+            }
 
 
             img {
@@ -38,14 +42,19 @@ body {
     flex-direction: column;
     align-items: center;
     padding: 50px;
+    @media screen and (max-width: 768px) {
+            padding: 0;
+    }
+}
 
     .footer__nav {
         display: flex;
         flex-direction: row;
         justify-content: space-evenly;
-    }
+     }
+        
 
-}
+
 
 h1 {
     font-weight: lighter;
@@ -56,6 +65,11 @@ h2 {
     font-weight: lighter;
     background-color: #ced4da6e;
 }
+
 .text-small {
     font-size: 16px;
+}
+
+.text>a {
+    color: #00BFFF;
 }
