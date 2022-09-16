@@ -1,0 +1,31 @@
+html {
+    box-sizing: border-box;
+    font-family: "Roboto Condensed", Arial;
+    color: #000000;
+    background-color: #ffffff;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+.header {
+    background-color: #F8F9FA;
+    a {
+        color: #848485;
+        text-decoration: none;
+    }
+}
+
+.footer {
+    color: #C4CAD0;
+    background-color: #343A40;
+    a {
+        color: #0393F2;
+    }
+    h4 {
+        color: #CED4DA;
+    }
+}
