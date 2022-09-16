@@ -1,26 +1,15 @@
-body {
+html {
     box-sizing: border-box;
+    font-weight: lighter;
+}
+
+body {
     height: 100vh;
     width: 100vw;
     margin: 0;
 }
 
 
-header {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    background-color: white;
-    margin: 10%;
-}
-
-.logo {
-    width: 150px;
-}
-
-.header__nav {
-    margin-left: auto;
-}
 
 .container {
     display: flex;
@@ -35,6 +24,7 @@ header {
 
         .card {
             width: 45%;
+
 
             img {
                 width: 100%;
@@ -55,4 +45,17 @@ header {
         justify-content: space-evenly;
     }
 
+}
+
+h1 {
+    font-weight: lighter;
+}
+
+h2 {
+    margin-bottom: 0;
+    font-weight: lighter;
+    background-color: #ced4da6e;
+}
+.text-small {
+    font-size: 16px;
 }
