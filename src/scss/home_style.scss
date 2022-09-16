@@ -30,7 +30,7 @@ body {
     .main__midribbon {
         display: flex;
         flex-flow: row nowrap;
-        justify-content: space-between;
+        justify-content: space-around;
         p {
             font-size: 16px;
         }
