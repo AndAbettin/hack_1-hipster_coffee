@@ -8,13 +8,14 @@ html {
     box-sizing: inherit;
   }
 
+
+  
+
   .container {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
-    height: 1000px;
-    width: 100%; 
+    align-items: flex-start;
 }
 
     .menu-container { 
@@ -32,6 +33,7 @@ display: flex;
 flex-direction: row;
 justify-content: space-around;
 align-items: flex-start;
+margin-bottom: 60px;
 
 }
 
@@ -42,13 +44,29 @@ align-items: flex-start;
     align-items: flex-start;
     flex-wrap: nowrap;
     align-content: center;
-    margin-right: 50px;
+    margin-right: 100px;
+    margin-top: 50px;
 } 
 
-p {
+.drinks p {
     width: 100%;
     display: flex;
     justify-content: space-between;
+    font-size: 12px;
+}
+
+.drinks2 p {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+h2 {
+    font-weight: 100;
+}
+
+.make-row {
+    display: flex;
 }
 
 
